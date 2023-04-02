@@ -21,7 +21,7 @@ app.use(cors({
 
 
 
-mongoose.connect("mongodb://localhost:27017",{
+mongoose.connect("mongodb+srv://nodejsboy:nodejsboy@kundan.sv22jem.mongodb.net/?retryWrites=true",{
     dbname:"backendapi",
 }).then(()=>console.log("Database connected"))
 .catch((e)=>console.log(e));
